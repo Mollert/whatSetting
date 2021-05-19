@@ -1,0 +1,22 @@
+{
+  "short_name": "Setting",
+  "name": "What's the setting?",
+  "description": "What is the right setting for which exercise",
+  "icons": [
+    {
+      "src": "./assets/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./assets/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "http://",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#F5F5F5"
+}
