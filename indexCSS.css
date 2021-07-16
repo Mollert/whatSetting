@@ -32,9 +32,18 @@ html, body {
 	border-top: 0.3rem solid FireBrick;
 }
 
+#reminder {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 1.7rem;
+}
+
 .dash {
-	height: 1.2rem;
-	object-fit: scale-down;
+	height: 0.6rem;
+	width: 2.4rem;
+	border-bottom: 0.2rem solid Black;
 }
 
 .setupGroup {
