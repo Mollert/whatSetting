@@ -32,6 +32,10 @@ html, body {
 	border-top: 0.3rem solid FireBrick;
 }
 
+.setsAnd {
+	text-align: center;
+}
+
 #reminder {
 	display: flex;
 	flex-direction: row;
@@ -46,10 +50,6 @@ html, body {
 	border-bottom: 0.2rem solid Black;
 }
 
-.setupGroup {
-	margin: 0rem 1rem 0 1rem;
-}
-
 .setup {
 	margin: 0rem 1rem 0 1rem;
 	font-size: 1.4rem;	
@@ -58,6 +58,39 @@ html, body {
 
 .exercise {
 	margin: 0.4rem 1rem 0 1rem;
+}
+
+#forShoulder {
+	width: 1rem;
+	height: 1rem;
+	transition: transform 0.5s ease;
+}
+
+#forShoulder:hover {
+	transform: scale(12);
+	transform-origin: 0 50%;
+}
+
+#sideShoulder {
+	width: 1rem;
+	height: 1rem;
+	transition: transform 0.5s ease;
+}
+
+#sideShoulder:hover {
+	transform: scale(12);
+	transform-origin: 0 50%;
+}
+
+#crossoverFly {
+	width: 1rem;
+	height: 1rem;
+	transition: transform 0.5s ease;
+}
+
+#crossoverFly:hover {
+	transform: scale(12);
+	transform-origin: 0 50%;
 }
 
 .setNumber {
