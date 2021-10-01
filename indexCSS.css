@@ -50,46 +50,22 @@ html, body {
 	border-bottom: 0.2rem solid Black;
 }
 
+.setupGroup {
+	margin: 0 1rem 1rem 1rem;
+}
+
 .setup {
-	margin: 0rem 1rem 0 1rem;
+	padding: 0 1rem;
 	font-size: 1.4rem;	
 	text-align: center;
 }
 
 .exercise {
-	margin: 0.4rem 1rem 0 1rem;
+	margin: 0.4rem 0 0 0;
+	height: 1.6rem;
 }
 
-#forShoulder {
-	width: 1rem;
-	height: 1rem;
-	transition: transform 0.5s ease;
-}
-
-#forShoulder:hover {
-	transform: scale(12);
-	transform-origin: 0 50%;
-}
-
-#sideShoulder {
-	width: 1rem;
-	height: 1rem;
-	transition: transform 0.5s ease;
-}
-/*
-#sideShoulder:hover {
-	transform: scale(12);
-	transform-origin: 0 50%;
-}
-*/
-#crossoverFly {
-	width: 1rem;
-	height: 1rem;
-	transition: transform 0.5s ease;
-}
-
-#crossoverFly:hover {
-	transform: scale(12);
+.theImage {
 	transform-origin: 0 50%;
 }
 
@@ -100,11 +76,4 @@ html, body {
 #clearBottom {
 	width: 100%;
 	height: 4vw;
-}
-
-@media (hover: hover) {
-	#sideShoulder:hover {
-		transform: scale(12);
-		transform-origin: 0 50%;
-	}
 }
