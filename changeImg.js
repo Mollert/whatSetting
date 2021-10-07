@@ -16,7 +16,7 @@ const shrinkImgAll = (all) => {
 }
 
 const expandImg = (tap) => {
-	document.getElementById(tap).style.transform = "scale(12)";
+	document.getElementById(tap).style.transform = "scale(14)";
 	document.getElementById(tap).style.transition = "transform 1s ease";
 	document.getElementById(tap).style.borderWidth = "0.001rem";
 	document.getElementById(tap).style.borderColor = "firebrick";
