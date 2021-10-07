@@ -1,30 +1,25 @@
 
 const shrinkImgSingle = (select) => {
-	document.getElementById(select).style.transition = "transform 0.6s ease";
-	document.getElementById(select).style.borderColor = "black";		
-	document.getElementById(select).style.transform = "scale(1)";
-	document.getElementById(select).style.borderWidth = "0.1rem";
+	document.getElementById(select).style.transform = "scale(1)";	
+	document.getElementById(select).style.transition = "transform 0.4s ease-out";
+	setTimeout( () => {
+		document.getElementById(select).style.borderColor = "black";}, 300);
+		document.getElementById(select).style.borderWidth = "0.1rem";		
 }
 
 const shrinkImgAll = (all) => {
 	for (let i = 0 ; i < all.length ; i++) {
 		if (document.getElementById(all[i].id).style.borderColor === "firebrick") {
-
-			document.getElementById(all[i].id).style.transition = "transform 0.4s ease";
-			document.getElementById(all[i].id).style.transform = "scale(1)";
-			document.getElementById(all[i].id).style.transformOrigin = "0 50%";
-			document.getElementById(all[i].id).style.borderColor = "black";
-			document.getElementById(all[i].id).style.borderWidth = "0.1rem";			
+			shrinkImgSingle(all[i].id);			
 		}
 	}
 }
 
 const expandImg = (tap) => {
+	document.getElementById(tap).style.transform = "scale(20)";
 	document.getElementById(tap).style.transition = "transform 1s ease";
-	document.getElementById(tap).style.borderWidth = "0.03rem";
+	document.getElementById(tap).style.borderWidth = "0.001rem";
 	document.getElementById(tap).style.borderColor = "firebrick";
-	document.getElementById(tap).style.transform = "scale(10)";
-	document.getElementById(tap).style.transformOrigin = "0 50%";
 }
 
 
