@@ -83,7 +83,7 @@ html, body {
 	border-width: 0.001rem;
 	border-color: FireBrick;	
 	transition-property: transform, scale, border-width, border-color;
-	transition-duration: 1.2s, 1.2s, 0s, 0s;
+	transition-duration: 1s, 1s, 0s, 0s;
 	transition-timing-function: ease, ease, linear, linear;
 	transform: scale(16);
 	transform-origin: 0 50%;
