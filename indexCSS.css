@@ -68,23 +68,14 @@ html, body {
 .smallImage {
 	width: 1.2rem;
 	height: 1.2rem;
-	border-width: 0.1rem;
-	border-style: solid;
-	border-color: black;
-	transition-property: transform, scale, border-width, border-color;
-	transition-duration: 0.4s;
-	transition-timing-function: linear;
-	transition-delay: 0s, 0s, 0.2s, 0.2s;
+	border: 0.1rem solid black;
 	transform: scale(1);
 	transform-origin: 0 50%;
 }
 
 .largeImage {
-	border-width: 0.001rem;
-	border-color: FireBrick;	
-	transition-property: transform, scale, border-width, border-color;
-	transition-duration: 1s, 1s, 0s, 0s;
-	transition-timing-function: ease, ease, linear, linear;
+	border: 0.01rem solid FireBrick;
+	transition-duration: 1s all ease;
 	transform: scale(16);
 	transform-origin: 0 50%;
 }
